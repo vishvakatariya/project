@@ -1,0 +1,86 @@
+/* Add to your existing style.css or create new one */
+
+.contact-section {
+    padding: 60px 0;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.header {
+    background-color: #222;
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-section p {
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e67e22;
+}
+
+.success-message {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 15px;
+    border: 1px solid #c8e6c9;
+    border-radius: 6px;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
